@@ -2,14 +2,77 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Comparison</title>
-	
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
-	<!-- your comparison interface here -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <span style="float:right;">
+          
+           
+          <i class="material-icons my-icons2">home</i>
+          
+          </span>
+      
+      </div>
+    </div>
+    
+    <div class="row">
+      <button type="button" class="btn btn-success center" vspace = "20">Select Date</button>
+     
+    </div>
+    
+    <div class="row">
+      <button type="button" class="btn btn-success center" vspace = "20">Select Time</button>
+     
+    </div>
+    
+   
+    
+     <span class="box" style="text-align:center"> Berkeley
+      <img src="http://i65.tinypic.com/2dif72g.png"alt="person at beach "width="75" height="75" class="center" vspace="20">
+       <p>
+         Sunny 57° F
+       </p>
+      
+    </span>
+    
+     <span class="box" style="text-align:center"> Stanford
+      <img src="http://i65.tinypic.com/2dif72g.png"alt="person at beach "width="75" height="75" class="center" vspace="20">
+        <p>
+         Sunny 56° F
+       </p>
+    </span>
+      
+    <span style="position: relative; right: 80px"> 
+      <i class="material-icons my-icons">add</i>
+    </span>
+    
+    
+    <hr> </hr>
+    <div class="row">  
+    
+         <i class="material-icons my-icons">keyboard_return</i>
+     
+      
+ 
+         <i class="fa fa-gear btm-bar" style="width:50%"></i>
+     
+                                  
+     
+    </div>
+                                     
+                                  
+                                  
+   </div>
+  
 </body>
 </html>

@@ -1,3 +1,88 @@
 li {
     color: green;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: green;
+}
+
+html *
+{
+   color: #000 !important;
+   font-family: Arial;
+}
+
+.my-icons {
+  position: relative;
+  left: 200px;
+}
+
+.my-icons2 {
+  position: relative;
+  left: 240px;
+}
+
+.center-text {
+  position: relative;
+  left: 75px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.degree {
+  position: relative;
+  top: 50px;
+  right: 25px;
+}
+
+.my-btn {
+  position: relative;
+  left: 100px;
+}
+
+.btm-bar {
+
+  position: relative;
+  left: 40px;
+}
+
+.hor {
+  position: relative;
+  top: 40px;
+}
+
+.box {
+      background-color: lightgrey;
+      
+      border: 5px solid green;
+      padding: 40px;
+      margin: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+}   
+
+.box2 {
+      background-color: red;
+      
+      border: 5px solid green;
+      padding: 40px;
+      margin: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+}   
